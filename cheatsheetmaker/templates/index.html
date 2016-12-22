@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>Cheatsheet Maker</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="/">Home</a></li>
+            <li role="presentation"><a href="/about/">About</a></li>
+            <li role="presentation"><a href="/about_language/">About Language</a></li>
+          </ul>
+        </nav>
+        <b><h3 class="text-muted">Cheat & Revise Maker</h3></b>
+      </div>
+      
+
+      <div class="jumbotron">
+       <h1>Welcome!</h1>
+       <b>
+               <p class="lead">Create cheatsheets that only you can understand. Enter your text and it will get converted to language that only you can understand</p>
+        <p>or create fill in the blanks to aid you in your studies</p>
+                        <a  class="btn btn-lg btn-success" href="/about_language/">Encrypted language rules</a>
+
+        <p>You can take that sheet in your exam and no one will understand what has been written.</p><br>
+        <p>You can also revise with this tool, when you click on the Revise button after entering the text, the software would leave certain blanks in the sentence, that you will have to fill. In this way you can revise your study material</p><br>
+        <hr>
+
+        <form action="maker/" method="get">
+        <div class="form-group">
+  		<textarea  name="query" class="form-control" placeholder="TYPE YOUR TEXT HERE" rows="9" id="comment"></textarea>
+
+                 <button type="submit"  class="btn btn-lg btn-success">Cheat</button> 
+  <button type="submit"  class="btn btn-lg btn-success" formaction="/revise">Revise</button>
+
+      </form>
+
+     
+      <footer class="footer">
+        <b><p>&copy; 2016 Aadit Kapoor.</p><b>
+      </footer>
+
+    </div> <!-- /container -->
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+Django==1.9.4
+request==0.0.5
+requests==2.9.1
+gunicorn==19.4.5
+
